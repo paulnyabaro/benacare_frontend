@@ -40,7 +40,9 @@ body {
 }
 .shop-slider{
   padding: 2rem 0;
-  background-color: #1778f299;
+  background-color: #1778f255;
+  line-height: 2.2;
+  font-size: 1.125rem;
 }
 .shop-slider h3{
   font-size: 1.5rem;
@@ -54,6 +56,9 @@ body {
 }
 .text-green{
   color: var(--green);
+}
+.text-blue{
+  color: var(--blue);
 }
 .image-container{
   width: 100%;
@@ -73,6 +78,7 @@ body {
   display: inline-block;
   padding: 0.5rem 2rem;
   border-radius: var(--br);
+  font-weight: 500;
 }
 .btn-blue{
   background-color: var(--blue);
