@@ -9,7 +9,7 @@
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
   --blue:#224c89;
-  --green:green;
+  --green:#cbf83a;
   --white:#fff;
 }
 
@@ -41,7 +41,29 @@ body {
 
 footer{
   color: #fff;
+  font-size: 0.85rem;
 }
+footer h3{
+  font-size: 1.125rem;
+  font-weight: 700;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+  color: #fff!important;
+  position: relative;
+  width: max-content;
+}
+footer h3::before{
+  content: '';
+    height: 0;
+    width: 70%;
+    position: absolute;
+    bottom: 0;
+    border-bottom: 1px dashed var(--green);
+}
+footer ul li{
+  font-size: 0.85rem;
+}
+
 .main-footer {
   background-color: #222222;
   padding: 5rem 0;
