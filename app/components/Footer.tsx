@@ -33,6 +33,25 @@ const Footer = () => {
                             <li><a href="">Work With Us</a></li>
                         </ul>
                     </div>
+                    <div className="w-full md:w-1/2 lg:w-1/4">
+                        <h3>What We Do</h3>
+                        <ul className="footer-links">
+                            <li><a href="">Skilled Nursing</a></li>
+                            <li><a href="">Care Giver Services</a></li>
+                            <li><a href="">Training of Family Caregivers</a></li>
+                            <li><a href="">Physiotherapy Services</a></li>
+                            <li><a href="">Free Screening & Health Education</a></li>
+                        </ul>
+                    </div>
+                    <div className="w-full md:w-1/2 lg:w-1/4">
+                        <h3>Get In Touch</h3>
+                        <ul className="footer-links">
+                            <li><a href=""><i className="bi bi-geo-alt mr-2"></i> Muthaiga North,Nairobi, Kenya</a></li>
+                            <li><a href=""><i className="bi bi-clock mr-2"></i> Monday - Friday (9am - 6pm)</a></li>
+                            <li><a href=""><i className="bi bi-envelope mr-2"></i> info@benacare.or.ke</a></li>
+                            <li><a href=""><i className="bi bi-telephone mr-2"></i> 0800 721 275 | 0701 114 433</a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </section>

@@ -62,6 +62,7 @@ footer h3::before{
 }
 footer ul li{
   font-size: 0.85rem;
+  line-height: 2.5;
 }
 
 .main-footer {
