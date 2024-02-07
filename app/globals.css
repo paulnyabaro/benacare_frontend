@@ -89,6 +89,17 @@ body {
   color: var(--blue);
   border: 1px solid var(--blue);
 }
+.cart-box{
+  height: 2rem;
+  width: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1778f222;
+  color: var(--blue) !important;
+  border-radius: 50%;
+  line-height: 0  ;
+}
 
 footer{
   color: #fff;

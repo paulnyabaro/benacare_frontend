@@ -16,7 +16,7 @@ const Navbar = () => {
             </ul>
             <ul className="flex gap-x-8">
               <li><a href=""><i className="bi bi-person"></i> Login</a></li>
-              <li><a href="" className="bg-blue px-6 text-white uppercase text-sm py-3 border-rounded font-semibold rounded-3xl">Get In Touch</a></li>
+              <li><a href="" className="cart-box"><i className="bi bi-handbag"></i></a></li>
             </ul>
           </div>
         </div>
