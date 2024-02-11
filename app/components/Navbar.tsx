@@ -16,7 +16,9 @@ const Navbar = () => {
             </ul>
             <ul className="flex gap-x-8">
               <li><a href=""><i className="bi bi-person"></i> Login</a></li>
-              <li><a href="" className="cart-box"><i className="bi bi-handbag"></i></a></li>
+              <li><a href="" className="cart-box"><i className="bi bi-handbag"></i>
+                <span className="count">3</span>
+              </a></li>
             </ul>
           </div>
         </div>
